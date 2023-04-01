@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class=" md:bg-[url(./images/pattern-background-desktop.svg)] text-[1rem] text-redHotFont absolute w-full h-full flex flex-col justify-center items-center  bg-[url(./images/pattern-background-mobile.svg)] bg-paleBlue bg-top bg-no-repeat">
+  <main class="rounded-[1.2rem] bg-light mb-4 max-w-[23.4375rem] w-[90%]">
+    <img class="w-full h-auto rounded-t-[1.2rem]" src="./images/illustration-hero.svg" alt="" srcset="">
+    <article class="p-4 bg-light rounded-b-[1.2rem]">
+      <h1 class="text-darkBlue mt-4 mb-2 text-center font-black text-2xl">Order Summary</h1>
+      <div class="p-3">
+        <p class="mb-4 leading-normal text-center text-sm text font-medium text-desaturatedBlue"> You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!</p>
+      </div>
+      <div class="rounded-[0.625rem] bg-veryPaleBlue p-3 flex flex-row flex-nowrap justify-between md:px-5 items-center">
+        <div class="shadow-[0px_10px_20px] shadow-light/20 flex flex-row justify-center items-center flex-nowrap gap-4" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#DFE6FB"/><path fill="#717FA6" fill-rule="nonzero" d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"/></g></svg>
+          <div class="text-sm">
+            <p class="font-bold text-darkBlue">Annual Plan</p>
+            <p class="text-desaturatedBlue font-medium">$59.99/year</p>
+          </div>
+        </div>
+        
+        <a class="hover:text-desaturatedBlue hover:no-underline text-brightBlue text-sm underline font-bold" href="http://">Change</a>
+      </div>
+      <button class="hover:bg-desaturatedBlue shadow-[0px_25px_20px] mb-4 shadow-desaturatedBlue/20 bg-brightBlue text-sm my-6 w-full p-3 rounded-[0.625rem] text-light font-bold">Proceed to Payment</button>
+      <button class="hover:text-darkBlue text-center text-sm font-bold text-desaturatedBlue w-full">Cancel Order</button>
+    </article>
+  </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ndickers</a>.
+  </div>
+</body>
+</html>
